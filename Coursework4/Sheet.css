@@ -1,0 +1,113 @@
+body{
+  background: #E7E7E7;
+  font-family: Arial;
+  font-size:12px;
+}
+
+.whiteBack {
+  background: white;
+  width:1000px;
+  height: 780px;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bluebox {
+  background: #7CC8FF;
+  padding:1px 0px;
+  margin: 5px 0px;
+  height: 667px;
+  border-radius: 5px;
+}
+
+.bluebox ul li {
+  font-size: 16px;
+  list-style: none;
+  display: inline-block;
+  font-family: Verdana;
+}
+
+.bluebox ul li a{
+  padding: 8px 14px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.bluebox ul li a:hover{
+  background: #6099C2;
+  color: #FFFFFF;
+}
+
+.topGraphic {
+  overflow:hidden;
+}
+
+.mainText{
+  margin: 10px 0px;
+}
+
+.mainText .imagePadding{
+  float: right;
+  width: 300px;
+}
+
+.mainText .textbody {
+  padding: 0px 20px;
+  width: 630px;
+}
+
+.mainText h1 {
+  border-left: 5px solid #FC3
+  color: #050
+  padding:10px 20px;
+  font-size: 22px;
+  font-family: Verdana;
+}
+
+p {
+  font-size: 19px;
+  font-family: Verdana;
+}
+
+.rightImage{
+  height: 300px;
+  width: 285px;
+  border-radius: 5px;
+}
+
+.card{
+  border-radius: 15px;
+  padding: 10px;
+  width: 217px;
+  height: 249px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.container img{
+  border-radius: 15px;
+  width: 200px;
+  height: 212px;
+}
+
+.centered {
+    font-family: Verdana;
+    font-size: 35px;
+    font-style: strong;
+    color: #FFF;
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
